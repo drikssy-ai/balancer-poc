@@ -28,9 +28,9 @@ deploy-vault:
 
 deploy-tokens:
 	@echo "Deploying Tokens contract on $(NETWORK)..."
-	forge script script/deployment/DeployTokens.s.sol --rpc-url $(NETWORK) --with-gas-price 600 --broadcast --verify --optimize
+	forge script script/deployment/DeployTokens.s.sol --rpc-url $(NETWORK) --broadcast --verify --optimize
 
 deploy-pool:
 	@echo "Deploying Pool on $(NETWORK)..."
-	forge script script/deployment/DeployPool.s.sol --rpc-url $(NETWORK) --with-gas-price 600 --broadcast --verify --optimize
+	forge script script/deployment/DeployWeightPool.s.sol --rpc-url $(NETWORK) --broadcast --verify --optimize
 ############################################################################################################

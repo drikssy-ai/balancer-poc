@@ -1,12 +1,8 @@
 {
-  "name": "balancer-poc",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "drikssy-ai <drikssy2@ai-it.company>",
-  "license": "MIT",
   "devDependencies": {
+    "@balancer-labs/v2-pool-weighted": "^2.0.1",
+    "@balancer-labs/v2-vault": "^3.0.1",
     "@openzeppelin/contracts": "^5.1.0",
-    "forge-std": "github:foundry-rs/forge-std",
-    "balancer-v2-lite": "https://github.com/icmoore/balancer-v2-lite"
+    "forge-std": "github:foundry-rs/forge-std"
   }
 }
